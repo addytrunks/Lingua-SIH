@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>CoffeeScript WebGL ARP Signing Avatar: vhg.2025</title>
+
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta http-equiv="Access-Control-Allow-Methods" content="GET">
+
+    <!-- CWA @ vhg.cmp.uea.ac.uk/tech/jas/vhg2025 -->
+
+    <link rel="stylesheet" href="https://vhg.cmp.uea.ac.uk/tech/jas/vhg2025/cwa/cwasa.css" />
+    <script type="text/javascript" src="https://vhg.cmp.uea.ac.uk/tech/jas/vhg2025/cwa/allcsa.js"></script>
+
+</head>
+
+<body
+    onload="CWASA.init({jasBase:'https://vhg.cmp.uea.ac.uk/tech/jas/vhg2025/', sigmlBase:'http://localhost:5173/sigml',avs: ['luna'], avSettings:[{initAv:'luna'}]});">
+
+    <!--================================================================-->
+    <h3>CoffeeScript WebGL ARP Signing Avatar with Animgen via JASigning: vhg.2025</h3>
+    <h4>GUI built from standard components</h4>
+    <hr />
+
+    <table align="center">
+        <tr>
+
+            <!--================================================================-->
+            <!-- CWA signing avatar panel 0 -->
+            <!--================================================================-->
+            <td align="left" valign="center" width="250" height="280">
+                <div class="CWASAAvatar av0 min-h-[500px]" align="center"></div>
+            </td>
+            <!--================================================================-->
+
+            <td></td>
+
+            <!--================================================================-->
+            <!-- CWA signing avatar GUI panels 0 -->
+            <!--================================================================-->
+
+        </tr>
+    </table>
+
+    <hr />
+    This example shows how the GUI can be built up from standard components.
+    <p>
+        The avatar panel is generated automatically, but other buttons and fields are provided using standard
+        components. Components are identified by the class name including the number of the avatar. Multiple instances
+        of some components can be used, but components for the SiGML URL or SiGML Text should occur only once for a
+        given avatar.
+    <p>
+        To build the GUI, span or div elements can be used. A line break will occur after div elements so if elements
+        are to be on the same line, span should be used.
+    <p>
+        Below is second copy of the progress display and speed control:
+    <p align="center">
+        <span class="CWASAProgress av0"></span> &nbsp; &nbsp; &nbsp; Speed: <span class="CWASASpeed av0"></span>
+
+        <!-- Hidden SToCA applet element panel -->
+        <!--================================================================-->
+    <div class="SToCA" align="center"></div>
+    <!--================================================================-->
+
+    <hr />
+    <p>
+        <small>
+            Available under the
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA License</a>. JRWG
+            2021-01-19
+        </small>
+</body>
+
+</html>
