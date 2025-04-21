@@ -1,5 +1,4 @@
 import eventlet
-from text_isl_preprocessing import RailwaysAnnouncementPreprocessor
 from sigml_isl_preprocessing import load_sigml_data
 from isl_text_preprocessor import ISLTextPreprocessor
 from lf_csv_helper import LfCsvHelper

@@ -107,7 +107,7 @@ class LandmarkRenderer:
         return canvas
 
 
-def render_sentence(words, renderer=None, coordinates_file="final_coordinates.csv"):
+def render_sentence(words, renderer=None, coordinates_file="coordinates/final_coordinates.csv"):
     # Load coordinates from CSV file
     df = pd.read_csv(coordinates_file)
 

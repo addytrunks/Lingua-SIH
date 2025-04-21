@@ -10,28 +10,28 @@ const host = process.env.TAURI_DEV_HOST;
 export default defineConfig(async () => ({
   optimizeDeps: { exclude: ["pyodide"] },
   plugins: [
-    {
-      name: "vite-plugin-pyodide",
-      generateBundle: async () => {
-        const assetsDir = "static/pyodide";
-        await mkdir(assetsDir, { recursive: true });
-        console.log(assetsDir);
+    // {
+    //   name: "vite-plugin-pyodide",
+    //   generateBundle: async () => {
+    //     const assetsDir = "static/pyodide";
+    //     await mkdir(assetsDir, { recursive: true });
+    //     console.log(assetsDir);
 
-        const files = [
-          "pyodide-lock.json",
-          "pyodide.asm.js",
-          "pyodide.asm.wasm",
-          "python_stdlib.zip",
-        ];
-        const modulePath = fileURLToPath(import.meta.resolve("pyodide"));
-        for (const file of files) {
-          await copyFile(
-            join(dirname(modulePath), file),
-            join(assetsDir, file)
-          );
-        }
-      },
-    },
+    //     const files = [
+    //       "pyodide-lock.json",
+    //       "pyodide.asm.js",
+    //       "pyodide.asm.wasm",
+    //       "python_stdlib.zip",
+    //     ];
+    //     const modulePath = fileURLToPath(import.meta.resolve("pyodide"));
+    //     for (const file of files) {
+    //       await copyFile(
+    //         join(dirname(modulePath), file),
+    //         join(assetsDir, file)
+    //       );
+    //     }
+    //   },
+    // },
     sveltekit(),
   ],
 

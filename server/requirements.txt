@@ -1,0 +1,17 @@
+torch
+tf-keras
+flask
+flask-cors
+flask-socketio
+langchain-core
+langchain-openai
+langchain-groq
+transformers
+google-generativeai
+pandas
+mediapipe
+opencv-python
+eventlet
+python-dotenv
+accelerate
+scikit-learn==1.2.0

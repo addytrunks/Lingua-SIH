@@ -13,3 +13,5 @@ vite.config.ts.timestamp-*
 .vscode
 /android
 /server/coordinates
+.venv
+__pycache__

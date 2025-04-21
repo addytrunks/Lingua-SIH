@@ -6,7 +6,7 @@
   let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>
 
-<div class="absolute inset-0 -z-30 bg-[url('home-bg1.jpg')] bg-center"></div>
+<div class="absolute inset-0 -z-30 bg-[url('/home-bg1.jpg')] bg-center"></div>
 <a
   href="/"
   class="w-8 h-8 flex justify-center absolute top-2 left-2 items-center bg-white rounded-full z-50"
