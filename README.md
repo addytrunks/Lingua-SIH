@@ -57,15 +57,11 @@ Ankith A <br/>
 
 ## ISL Replica Testing (Video) - ML model
 
-We used the asl architecture, fwd to training the model from scratch, giving out images, collecting the dataset ourselves and training it, after collecting 200 samples for each character._
+We used the asl architecture, fwd to training the model from scratch, giving out images, collecting the dataset ourselves and training it, after collecting 200 samples for each character.
 
-_*Work in progress. Put ISL working video demo here later_
+The backend code can be found [here](https://github.com/addytrunks/ml_sih_isl)
 
-## Hardware Implementation (Physical Video) 
-
-_*Work in progress. Put smart glove video here later_
-
-## Tinkercad Virtual Simulation Setup (Developed as part of the Ideathon for Prototyping)
+# Tinkercad Virtual Simulation Setup (Developed as part of the Ideathon for Prototyping)
 
 ### Single Flex Sensor Model for Gesture Recognition..
 
